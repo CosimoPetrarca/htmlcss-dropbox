@@ -31,6 +31,7 @@ a{
     color: white;
     padding: 15px 32px;
     font-size: 16px;
+    
 }
 
 .img{
@@ -66,23 +67,28 @@ a{
 
 .conteiner-section{
     background-color: #b4d0e7;
-    height: 800px; /* debug */
 }
 
 .conteiner-big{
-    justify-content: space-between;
     max-width: 70%;
     margin: 0 auto;
+    
 }
 
 .colsmall{
-    width: 40%;
+    width: 30%;
 }
 
 .colbig{
-    width: 60%;
+    width: 70%;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 100px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.distance-button{
+    padding: 50px 0;
 }
