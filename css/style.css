@@ -8,3 +8,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ----------
+    Type
+----------- */
+
+.row{
+    display: flex;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ----------
+    Header
+----------- */
+
+.header-left{
+    height: 80px;
+    align-items: center;
+}
+
+.header-left ul{
+    list-style-type: none;
+}
+
+.list-header > li{
+    padding: 20px;
+}
