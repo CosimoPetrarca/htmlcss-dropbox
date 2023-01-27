@@ -33,6 +33,10 @@ a{
     font-size: 16px;
 }
 
+.img{
+    width: 100%;
+}
+
 /* ----------
     Header
 ----------- */
@@ -56,3 +60,29 @@ a{
     align-items: center;
 }
 
+/* ----------
+    Header
+----------- */
+
+.conteiner-section{
+    background-color: #b4d0e7;
+    height: 800px; /* debug */
+}
+
+.conteiner-big{
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.colsmall{
+    width: 40%;
+}
+
+.colbig{
+    width: 60%;
+}
+
+h1{
+    font-size: 30px;
+}
