@@ -25,20 +25,34 @@ a{
     text-decoration: none;
 }
 
+.button-primary{
+    background-color: #0061ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+}
 
 /* ----------
     Header
 ----------- */
 
-.header-left{
+.conteiner-header{
     height: 80px;
     align-items: center;
+    justify-content: space-between;
+
 }
 
-.header-left ul{
+.box-header ul{
     list-style-type: none;
 }
 
 .list-header > li{
     padding: 20px;
 }
+
+.list-header{
+    align-items: center;
+}
+
