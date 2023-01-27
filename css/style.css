@@ -65,7 +65,7 @@ a{
     Header
 ----------- */
 
-.conteiner-section{
+.conteiner-bigsection{
     background-color: #b4d0e7;
 }
 
@@ -92,3 +92,13 @@ h1{
 .distance-button{
     padding: 50px 0;
 }
+
+.conteiner-section{
+    max-width: 60%;
+    margin: 0 auto;
+    /* debug */
+    height: 1600px; 
+    background-color: burlywood;
+    /* debug */
+}
+
