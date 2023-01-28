@@ -38,6 +38,17 @@ a{
     width: 100%;
 }
 
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+h2{
+    font-size: 40px;
+    padding: 50px 0;
+}
+
 /* ----------
     Header
 ----------- */
@@ -61,8 +72,9 @@ a{
     align-items: center;
 }
 
+
 /* ----------
-    Header
+    Main
 ----------- */
 
 .conteiner-bigsection{
@@ -83,12 +95,6 @@ a{
     width: 70%;
 }
 
-h1{
-    font-size: 100px;
-    font-weight: bold;
-    padding: 30px 0;
-}
-
 .distance-button{
     padding: 50px 0;
 }
@@ -96,9 +102,76 @@ h1{
 .conteiner-section{
     max-width: 60%;
     margin: 0 auto;
-    /* debug */
-    height: 1600px; 
-    background-color: burlywood;
-    /* debug */
+    height: 1500px; /* debug */
+    padding: 30px 0;
 }
 
+.icon{
+    margin-right: 10px;
+}
+
+.conteiner-colonna h5:first-of-type {
+    padding: 30px 0 15px 0;
+}
+
+.conteiner-colonna h5:nth-of-type(2) {
+    color: grey;
+    padding-bottom: 30px;
+
+}
+.conteiner-colonna h4:first-of-type {
+    padding: 20px 0;
+}
+
+.conteiner-colonna p{
+    padding: 20px 0;
+}
+  
+
+.option2{
+    margin-left: 100px;
+}
+
+.radio-button{
+    padding-bottom: 50px;
+}
+
+.conteiner-colonna{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.colonna{
+    width: calc(100% /3);
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.colonna > h4{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.colonna > div{
+    padding: 30px;
+}
+.ecc{
+    margin: 0 50px; /* debug */
+}
+
+.underline{
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+.line{
+    height: 1px;
+    color: lightgrey;
+    width: 25%;
+    margin: 40px 0;
+}
+.check{
+    color: #0061ff;
+}
