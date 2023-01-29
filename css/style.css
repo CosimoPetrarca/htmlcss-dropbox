@@ -32,7 +32,14 @@ a{
     padding: 15px 32px;
     font-size: 16px;
     cursor: pointer;
-    
+}
+
+.button-secondary{
+    background-color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid black;
 }
 
 .img{
@@ -50,6 +57,13 @@ h2{
     padding: 50px 0;
 }
 
+h3{
+    font-size: 30px;
+}
+
+p{
+    line-height: 1.5;
+}
 /* ----------
     Header
 ----------- */
@@ -78,6 +92,10 @@ h2{
     Main
 ----------- */
 
+/* ----------
+  I section
+----------- */
+
 .conteiner-bigsection{
     background-color: #b4d0e7;
 }
@@ -100,10 +118,13 @@ h2{
     padding: 50px 0;
 }
 
-.conteiner-section{
+/* ----------
+  II section
+----------- */
+
+.conteiner-sections{
     max-width: 60%;
     margin: 0 auto;
-    height: 1500px; /* debug */
     padding: 30px 0;
 }
 
@@ -213,4 +234,21 @@ h2{
 
 .conteiner-riga p:first-of-type{
     padding: 50px 0;
+}
+
+/* ----------
+  III section
+----------- */
+
+.img-terzasection{
+    max-width: 60% ;
+}
+
+.colonn-terzasection{
+    max-width: 40% ;
+    margin: 50px;
+}
+
+.colonn-terzasection h3{
+    padding-bottom: 30px;
 }
