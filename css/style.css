@@ -42,6 +42,12 @@ a{
     border: 1px solid black;
 }
 
+.conteiner-sections{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
 .img{
     width: 100%;
 }
@@ -64,9 +70,9 @@ h3{
 p{
     line-height: 1.5;
 }
-/* ----------
-    Header
------------ */
+/* -----------------------
+            Header
+-------------------------- */
 
 .conteiner-header{
     height: 80px;
@@ -88,9 +94,9 @@ p{
 }
 
 
-/* ----------
-    Main
------------ */
+/* -----------------------
+            Main
+-------------------------- */
 
 /* ----------
   I section
@@ -121,12 +127,6 @@ p{
 /* ----------
   II section
 ----------- */
-
-.conteiner-sections{
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 30px 0;
-}
 
 .icon{
     margin-right: 10px;
@@ -274,4 +274,12 @@ p{
 
 .conteiner-sections h2{
     padding-bottom: 50px;
+}
+
+/* ----------
+  V section
+----------- */
+
+.conteiner-quintasection{
+    width: 50%;
 }
