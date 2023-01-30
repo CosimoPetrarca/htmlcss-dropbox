@@ -29,7 +29,7 @@ a{
     background-color: #0061ff;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px;
     font-size: 16px;
     cursor: pointer;
 }
@@ -43,28 +43,29 @@ a{
 }
 
 .conteiner-sections{
-    max-width: 60%;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 50px 0;
 }
 
 .img{
     width: 100%;
+    height: auto;
 }
 
 h1{
-    font-size: 100px;
+    font-size: 80px;
     font-weight: bold;
     padding: 30px 0;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 35px;
     padding: 50px 0;
 }
 
 h3{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 p{
@@ -107,7 +108,7 @@ p{
 }
 
 .conteiner-big{
-    max-width: 70%;
+    max-width: 1180px;
     margin: 0 auto;
     
 }
@@ -134,6 +135,7 @@ p{
 
 .conteiner-colonna h5:first-of-type {
     padding: 30px 0 15px 0;
+    
 }
 
 .conteiner-colonna h5:nth-of-type(2) {
@@ -146,7 +148,7 @@ p{
 }
 
 .conteiner-colonna p{
-    padding: 20px 0;
+    padding: 10px 0;
 }
   
 
@@ -234,6 +236,7 @@ p{
 
 .conteiner-riga p:first-of-type{
     padding: 50px 0;
+    width: 60%;
 }
 
 /* ----------
@@ -281,5 +284,73 @@ p{
 ----------- */
 
 .conteiner-quintasection{
-    width: 50%;
+    width: 60%;
 }
+
+/* ----------
+  VI section
+----------- */
+
+.conteiner-sestasection{
+    display: flex;
+}
+
+.bigbox{
+    width: calc(100vw /3); 
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+    height: 640px;
+    
+}
+
+.minibox{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.minibox > img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.img1{
+    background-color: #a2d39b;
+}
+
+.img2{
+    background-color: #61082b;
+}
+
+.img3{
+    background-color: #0093ce;
+}
+
+.img4{
+    background-color: #ff1c1c;
+}
+
+.img5{
+    background-color: #d5001f;
+}
+
+.img6{
+    background-color: #b4d0e7;
+}
+
+.img7{
+    background-color: #0d2481;
+}
+
+.img8{
+    background-color: #ffd830;
+}
+
+
