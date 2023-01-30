@@ -381,3 +381,32 @@ sup{
 /* ----------
   VII section
 ----------- */
+
+.conteiner-settimasection{
+    background-color: #b4d0e7;
+    height: 360px;
+    align-items: center;
+}
+
+.first{
+    max-width: 60% ;
+}
+
+.second{
+    max-width: 40% ;
+    padding: 50px 0;
+}
+
+.second a button{
+    border: none;
+    
+}
+
+.seven{
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.first h2{
+    color: #61082b;
+}
