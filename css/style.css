@@ -410,3 +410,35 @@ sup{
 .first h2{
     color: #61082b;
 }
+
+/* ----------
+  VIII section
+----------- */
+
+.eight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conteiner-ottavasection{
+    width: 1000px;
+    height: 720px; 
+    padding-top: 120px;
+}
+
+.conteiner-ottavasection h2{
+    padding-bottom: 70px;
+}
+
+.conteiner-ottavasection .faq{
+    display: flex;
+    padding-right: 30px;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 35px 0;
+}
+.conteiner-ottavasection:last-child{
+    border-bottom: 1px solid black;
+}
