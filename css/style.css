@@ -122,7 +122,6 @@ hr{
     margin: 0 auto;
     position: relative;
     bottom: -80px;
-
 }
 
 .colsmall {
@@ -134,7 +133,15 @@ hr{
 }
 
 .distance-button {
-    padding: 50px 0;
+    padding: 30px 0;
+}
+
+.conteiner-big .fa-arrow-down{
+    position: absolute;
+    left: 0;
+    bottom: 90px;
+    color: black;
+    font-size: 50px;
 }
 
 /* ----------
