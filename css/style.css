@@ -439,6 +439,47 @@ sup{
     border-top: 1px solid black;
     padding: 35px 0;
 }
-.conteiner-ottavasection:last-child{
-    border-bottom: 1px solid black;
+
+
+/* -----------------------
+            Footer
+-------------------------- */
+footer{
+    background-color: black;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+    width: 1180px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    width: 20%;
+    text-align: left;
+    padding: 30px 0;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-section li{
+    margin-bottom: 10px;
+  }
+  
+  .footer-section li a {
+    font-size: 12px;
+    color: white;
+  }
+  
+  .footer-section h4 {
+    margin: 30px 0px;
+    font-size: 20px;
+  }
+  
