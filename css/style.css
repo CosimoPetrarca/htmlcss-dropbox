@@ -96,7 +96,8 @@ hr{
 
 .list-header>li {
     padding: 0 20px;
-}
+    display: flex;
+    align-items: center;}
 
 .list-header{
     border-bottom: 0;
