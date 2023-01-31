@@ -82,14 +82,12 @@ hr{
 .conteiner-header {
     background-color: white;
     height: 80px;
-    align-items: center;
     justify-content: space-between;
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
     z-index: 5;
-
 }
 
 .box-header ul {
@@ -97,12 +95,20 @@ hr{
 }
 
 .list-header>li {
-    padding: 20px;
+    padding: 0 20px;
 }
 
-.list-header {
-    align-items: center;
+.list-header{
+    border-bottom: 0;
+    transition: border-bottom 0.3s
 }
+
+li:hover{
+    border-bottom: 1px solid black;
+
+}
+
+
 
 /* -----------------------
             Main
@@ -186,11 +192,17 @@ hr{
     position: relative;
 }
 
+.col30{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .colonna {
-    width: calc(100% /3);
+    width: 30%;
     background-color: white;
     border: 1px solid lightgray;
+    justify-content: space-around;
 }
 
 .colonna>h4 {
@@ -201,11 +213,6 @@ hr{
 
 .colonna>div {
     padding: 30px;
-}
-
-.ecc {
-    margin: 0 50px;
-    /* debug */
 }
 
 .underline {
@@ -290,7 +297,7 @@ hr{
 }
 
 .box {
-    width: calc(100% /3);
+    width: 30%;
     padding: 30px 0;
 }
 
